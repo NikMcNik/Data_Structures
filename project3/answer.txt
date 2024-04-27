@@ -1,0 +1,8 @@
+The douobly linked list implimentation of project 3 does not execute faster
+then the array based implimentation in porject 2.
+
+reason being the the order in wich data is stored are different, with the linked list it needs to be ordered
+while with the array we just append to the end. This negativly impacts the insertion functions run time.
+This causes the run time to be longer even if the run time of the search methods are comparable.
+The deletion method is indeed faster due to not having to coppy the data of the array into a new one and shifting 
+the data over in index values.
